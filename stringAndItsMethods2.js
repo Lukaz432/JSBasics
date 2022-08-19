@@ -1,3 +1,5 @@
+const Person = require('./oopsClassesAndMethods')
+
 let day = 'Tuesday '
 console.log(day.length) //8
 let subDay = day.slice(0,4) //Tues
@@ -30,3 +32,6 @@ while(value!== -1)
     value = newQuote.indexOf('day',value+1)
 }
 console.log(count)
+
+let person = new Person('Chris', 'Edward')
+console.log(person.fullName())

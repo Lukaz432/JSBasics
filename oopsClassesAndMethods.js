@@ -1,4 +1,4 @@
-class Person
+module.exports = class Person 
 {
     age = 25
     //calling a class property
@@ -20,10 +20,10 @@ fullName()
 }
 }
 
-//creating an object for a class
-let person = new Person('Tim', 'Joseph')
-let person1 = new Person('John', 'Abruzzi')
-console.log(person.age)
-console.log(person.location)
-console.log(person.fullName())
-console.log(person1.fullName())
+// //creating an object for a class
+// let person = new Person('Tim', 'Joseph')
+// let person1 = new Person('John', 'Abruzzi')
+// console.log(person.age)
+// console.log(person.location)
+// console.log(person.fullName())
+// console.log(person1.fullName())
